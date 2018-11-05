@@ -27,6 +27,12 @@
         android:summary="@string/changelog_crdroid_summary"
         android:fragment="com.crdroid.settings.fragments.about.Changelog"
         settings:allowDividerAbove="false" />
+     
+     <!-- About Devs -->
+         <PreferenceScreen
+         android:key="dev_info"
+         android:title="@string/dev_info"
+         android:fragment="com.android.settings.devs" />
 
     <!-- crDroid Share -->
     <PreferenceScreen
