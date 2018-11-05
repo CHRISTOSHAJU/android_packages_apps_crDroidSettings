@@ -48,6 +48,7 @@ import com.crdroid.settings.fragments.StatusBar;
 import com.crdroid.settings.fragments.UserInterface;
 import com.crdroid.settings.R;
 
+private static final String KEY_DEV_INFO = "dev_info";
 public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 
     private static final String TAG = "crDroidSettingsLayout";
